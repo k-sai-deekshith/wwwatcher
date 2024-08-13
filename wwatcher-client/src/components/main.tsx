@@ -15,7 +15,7 @@ interface Product {
 }
 
 const fetchFilteredWatches = async (filterObject: any): Promise<Product[]> => {
-  const response = await fetch('http://localhost:3000/watches/filter', {
+  const response = await fetch('http://3.141.3.156:3000/watches/filter', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
